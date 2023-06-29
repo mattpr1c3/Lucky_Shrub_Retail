@@ -1,0 +1,115 @@
+body {
+  background-color: rgb(175, 196, 140);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h1 + p {
+  font-size: 20px;
+  margin-bottom: 70px;
+  color: red;
+}
+
+article h1,
+p {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.landscaping {
+  width: 500px;
+  height: 300px;
+}
+
+.design {
+  width: 500px;
+  height: 300px;
+}
+
+.nursery {
+  width: 500px;
+  height: 300px;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+nav {
+  background-color: rgb(86, 156, 20);
+  border-radius: 10px;
+  margin: 0 500px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+}
+
+footer div {
+  flex: 1;
+}
+
+div > img {
+  width: 100px;
+  height: 100px;
+  margin-top: 5px;
+}
+
+.landArticle {
+  border: 3px solid green;
+  border-radius: 10px;
+  margin-right: 5px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.designArticle {
+  border: 3px solid green;
+  border-radius: 10px;
+  margin-right: 5px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.nurseryArticle {
+  border: 3px solid green;
+  border-radius: 10px;
+  margin-right: 5px;
+  padding-left: 10px;
+  text-align: center;
+}
